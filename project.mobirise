@@ -1,0 +1,252 @@
+{
+  "settings": {
+    "name": "Руководство по ремонту и обслуживанию w210 on-line",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "mobirise5",
+      "title": "Mobirise 5",
+      "styling": {
+        "primaryColor": "#6592e6",
+        "secondaryColor": "#ff6666",
+        "successColor": "#40b0bf",
+        "infoColor": "#47b5ed",
+        "warningColor": "#FFE161",
+        "dangerColor": "#ff9966",
+        "mainFont": "Jost",
+        "display1Font": "Jost",
+        "display1Size": 4.6,
+        "display2Font": "Jost",
+        "display2Size": 3,
+        "display5Font": "Jost",
+        "display5Size": 2,
+        "display7Font": "Jost",
+        "display7Size": 1.2,
+        "display4Font": "Jost",
+        "display4Size": 1.1,
+        "isRoundedButtons": false,
+        "isGhostButtonBorder": false,
+        "underlinedLinks": false,
+        "isAnimatedOnScroll": false,
+        "isScrollToTopButton": false
+      },
+      "additionalSetColors": []
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "5.6.5",
+    "siteFonts": [
+      {
+        "css": "'Jost', sans-serif",
+        "name": "Jost",
+        "url": "https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i"
+      }
+    ],
+    "uniqCompNum": 7,
+    "versionPublish": "5.6.5",
+    "imageResize": true
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Руководство по ремонту и обслуживанию w210 on-line",
+        "meta_descr": "Руководство по ремонту и обслуживанию w210 on-line",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": "",
+        "meta_image": "@PROJECT_PATH@/assets/images/c0504.jpg"
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            ".mbr-section-title": {
+              "text-align": "center",
+              "color": "#000000"
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "text-align": "center"
+            }
+          },
+          "_name": "header1",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"header1\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"5\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value>Left</option>\n            <option value=\"justify-content-center\" selected>Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/c0504.jpg\" selected parallax>\n            <input type=\"color\" title=\"Color\" value=\"#fafafa\">\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"text\" title=\"Fallback Image\" name=\"videoToImageOnMobile\" condition=\"overlay && bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#fafafa\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\" video-to-image-on-mobile=\"{{videoToImageOnMobile}}\">\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <h1 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><b>Руководство по ремонту и обслуживанию w210 on-line</b></h1>\n                <h2 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\" mbr-if=\"showSubitle\">\n                        Header Subtitle\n                    </h2>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Руководство по ремонту и эксплуатации Mercedes-Benz w210. Слева находится меню навигации по руководству.\n<br>\n<br>В книге приводится общая характеристика автомобиля, описание работы и взаимодействия узлов и механизмов, сведения по оптимальной эксплуатации и ремонту. Здесь также даны советы, следуя которым можно при помощи несложных приемов найти и устранить многие неисправности.</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\"><a class=\"btn btn-secondary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Create Website</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "t5IythyTUJ",
+          "_anchor": "header1-0",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            "blockquote": {
+              "border-color": "@lineColor",
+              "border-radius": "4px",
+              "background-color": "@cardColor"
+            }
+          },
+          "_name": "content7",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content7\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <input type=\"color\" name=\"lineColor\" title=\"Line Color\" value=\"#6592e6\">\n        <input type=\"color\" name=\"cardColor\" title=\"Color\" value=\"#fafafa\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-md-{{textWidth}}\">\n                <blockquote>\n                <h5 class=\"mbr-section-title mbr-fonts-style mb-2\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\"><b>Структура книги</b></h5>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\">Данное Руководство включает краткое содержание и три раздела: «Теория», «Обслуживание» и «Ремонт».\n<br>  «Теория». Этот раздел содержит описание устройства узлов, деталей, механизмов и их взаимодействия. Здесь вы найдете также подраздел «Технический словарь», в котором поясняются специальные термины.\n<br>  «Обслуживание». Подробная инструкция шаг за шагом представляет все необходимые работы. Подраздел «Рабочие символы» характеризует временные затраты на каждое действие, степень трудоемкости и возникающей при проведении работ опасности для персонала и окружающей среды.\n<br>  «Ремонт». В главе этого подраздела «Последовательность работ» подробно описываются все проводимые работы. Глава «Практические советы» поможет вам при замене узлов и деталей и при возникновении неясных вопросов.\n<br>Раздел «Ремонт» содержит также подраздел «Возможные неисправности и способы их устранения», который помогает определить причину и устранить наиболее часто встречающиеся неисправности узлов и систем.\n<br>Иллюстрации книги дают наглядное представление о конструкции узлов и агрегатов и о выполняемых операциях по их обслуживанию и ремонту.\n<br>Для пояснения основных терминов, определений и краткой характеристики назначения и функционирования узлов и систем в книгу введены главы «Технический словарь».\n<br>Ниже представлен образец оформления «Технического словаря»<br>Образец выполнения таблиц с перечнем точных последовательных операций по техническому обслуживанию и ремонту приведен ниже в качестве примера. Здесь также указывается, на что следует обращать внимание при ремонте.\n<br>\n<br>ПОСЛЕДОВАТЕЛЬНОСТЬ  РАБОТ \n<br>\n<br>(30 000 км 2 года)\n<br>1. Демонтировать впускной коллектор. У дизеля: демонтировать всасывающий трубопровод. У обоих двигателей отсоединить электропроводку.\n<br>2. Отвернуть шесть болтов крышки головки блока и аккуратно снять ее. Если крышка прочно прилегает к головке, снимите ее, аккуратно постукивая по ней рукой или рукояткой молотка.\n<br>3. Для измерения компрессии и проверки исправности клапанов одного из цилиндров впускной и выпускной клапаны должны быть полностью закрыты. Для этого надо провернуть распределительный вал до положения, когда оба кулачка первого цилиндра (в направлении движения вправо) окажутся симметрично в верхнем положении (при этом необходимо следить за ОТ-маркировкой). Данное положение соответствует верхней мертвой точке.\n<br>\n<br>Подраздел «Возможные неисправности» поможет вам выявить поломки и дефекты на вашем автомобиле. Образец оформления таблиц возможных неисправностей узлов, агрегатов и систем, их причин и способов устранения приведен ниже.\n<br>Подраздел «Практические советы» позволяет быстро и эффективно обнаружить неисправность и устранить ее. Образец оформления таблицы «Практические советы» приведен ниже.<br></p></blockquote>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "t5IzAi2oyN",
+          "_anchor": "content7-1",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            "blockquote": {
+              "border-color": "@lineColor",
+              "border-radius": "4px",
+              "background-color": "@cardColor"
+            }
+          },
+          "_name": "content7",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content7\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <input type=\"color\" name=\"lineColor\" title=\"Line Color\" value=\"#6592e6\">\n        <input type=\"color\" name=\"cardColor\" title=\"Color\" value=\"#fafafa\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-md-{{textWidth}}\">\n                <blockquote>\n                <h5 class=\"mbr-section-title mbr-fonts-style mb-2\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\"><b>&nbsp;Техническое обслуживание и контроль</b></h5>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\">Регламент проведения технического обслуживания вы найдете в конце книги. Он основывается на графике обслуживания, который дают производители автомобилей своим фирменным станциям автосервиса. Кроме того, этот регламент содержит некоторые профилактические операции по обслуживанию тех узлов и деталей, которые проверяются при проведении техосмотра. Обязательно соблюдайте сроки техобслуживания, утвержденные поставщиком.\n<br>\n<br>ПРАКТИЧЕСКИЕ СОВЕТЫ\n<br>Выход сжатого воздуха\n<br>Если при сжатии происходит утечка воздуха, в большинстве случаев причины этого следующие:\n<br>1. Неисправен впускной коллектор или корпус воздушного фильтра (последний — из-за неисправности впускного клапана).\n<br>2. Неисправна прокладка головки блока цилиндров или имеется трещина в головке блока цилиндров.\n<br>3. Открыта маслозаливная горловина или трубка для масломерного щупа; изношены стенки и зеркала цилиндров или поршневые кольца.\n<br>4. При выявлении шипения в выхлопной трубе — скорее всего, негерметичен выпускной клапан.\n<br>\n<br>Следует помнить, что Mercedes выполняет данные фирмой гарантийные обязательства только в том случае, если ваш автомобиль своевременно проходит техническое обслуживание в гарантийной мастерской.</p></blockquote>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "t5IzZ2dtGZ",
+          "_anchor": "content7-2",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            "blockquote": {
+              "border-color": "@lineColor",
+              "border-radius": "4px",
+              "background-color": "@cardColor"
+            }
+          },
+          "_name": "content7",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content7\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <input type=\"color\" name=\"lineColor\" title=\"Line Color\" value=\"#6592e6\">\n        <input type=\"color\" name=\"cardColor\" title=\"Color\" value=\"#fafafa\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-md-{{textWidth}}\">\n                <blockquote>\n                <h5 class=\"mbr-section-title mbr-fonts-style mb-2\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\"><b>Рабочие символы</b></h5>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\">«Дерево» символизирует окружающую среду. Этот символ ставится во всех случаях, когда выполняемая операция или отходы, появляющиеся в результате ее проведения, вредны для окружающей среды.\n<br>Различное количество гаечных ключей указывает на степень сложности выполняемых работ:\n<br>1 ключ — легкая работа;\n<br>2 ключа — серьезная работа, требующая соответствующих усилий;\n<br>3 ключа — тяжелая работа.\n<br>«Песочные часы» обозначают примерные затраты времени на ремонт. Риски на часах соответствуют четверти часа, заполненные часы — 1 часу.\n<br>«Восклицательный знак» указывает на операции, от которых зависит безопасность эксплуатации вашего автомобиля. Если вы не уверены, что сможете квалифицированно выполнить эти работы — не беритесь за них. Это нужно делать в автосервисе.\n<br>«Символ контроля». Этим символом отмечены работы по подготовке автомобиля к техосмотру. Вы сэкономите время и деньги, если выполните отмеченные этой пиктограммой работы по обслуживанию и профилактике перед наступлением срока техосмотра.\n<br>Этой пиктограммой обозначены операции по обслуживанию вашего автомобиля, которые проводятся на станциях техобслуживания. Все виды этих работ соответствуют официальному графику автосервиса.</p></blockquote>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "t5IAaSdU4a",
+          "_anchor": "content7-3",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            "blockquote": {
+              "border-color": "@lineColor",
+              "border-radius": "4px",
+              "background-color": "@cardColor"
+            }
+          },
+          "_name": "content7",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content7\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <input type=\"color\" name=\"lineColor\" title=\"Line Color\" value=\"#6592e6\">\n        <input type=\"color\" name=\"cardColor\" title=\"Color\" value=\"#fafafa\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-md-{{textWidth}}\">\n                <blockquote>\n                <h5 class=\"mbr-section-title mbr-fonts-style mb-2\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\"><b>Руководство по ремонту и обслуживанию w210 on-line</b></h5>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\">Новые модели имеют нетрадиционную для Mercedes внешность: четыре круглые фары и силуэт, характерный скорее для купе, чем для представительского седана. Будучи немногим больше своих предшественников, новые машины Е-класса выглядят приземистее, длиннее.\n<br>Уровень пассивной безопасности у нового Е-класса очень высок. Сложная структура кузова призвана гарантировать оптимальную деформацию при наезде на препятствие. По желанию машину могут укомплектовать боковыми надувными подушками для водителя и сидящего рядом с ним пассажира.\n<br>Наряду с восемью моделями двигателя покупателю предлагают три варианта комплектации кузова – Classic, Elegance и Avantgarde, 15 цветов лакокрасочного покрытия и 12 образцов материалов для внутренней отделки.\n<br>Основные отличия вариантов комплектации кузова — в отделке интерьера, а также в декоративных элементах, например, молдингах. Любой из двигателей устанавливают во все варианты комплектации кузова.\n<br>Многие натуральные материалы в автомобилях Е-класса заменены синтетическими, которые легко поддаются переработке.\n<br>Прочные и легкие материалы, элегантная обтекаемая форма и, наконец, эффективная защита от коррозии являются символом надежного, безопасного и долговечного автомобиля.</p></blockquote>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "t5IBafhGoR",
+          "_anchor": "content7-5",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".content-wrapper": {
+              "background": "@cardColor",
+              "@media (max-width: 991px)": {
+                ".row": {
+                  "flex-direction": "column-reverse"
+                },
+                ".image-wrapper": {
+                  "margin-bottom": "2rem"
+                }
+              },
+              "@media (max-width: 767px)": {
+                "padding": "1rem"
+              },
+              "@media (min-width: 768px) and (max-width: 991px)": {
+                "padding": "2rem"
+              },
+              "@media (min-width: 992px)": {
+                "padding": "5rem 3rem",
+                ".text-wrapper": {
+                  "padding-right": "2rem"
+                }
+              }
+            },
+            ".image-wrapper img": {
+              "width": "100%",
+              "object-fit": "cover"
+            }
+          },
+          "_name": "features16",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"features15\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" name=\"imageWidth\" title=\"Image\" min=\"4\" max=\"8\" step=\"1\" value=\"8\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Card Color\" name=\"cardColor\" value=\"#fafafa\" selected>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background3.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"text\" title=\"Fallback Image\" name=\"videoToImageOnMobile\" condition=\"overlay && bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\" video-to-image-on-mobile=\"{{videoToImageOnMobile}}\">\n        <div class=\"content-wrapper\">\n            <div class=\"row align-items-center\">\n                <div class=\"col-12 col-lg\">\n                    <div class=\"text-wrapper\">\n                        <h6 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\"><b>Возможные неисправности системы охлаждения, их причины и способы устранения\n</b><div><b><br></b></div></h6>\n                        <p class=\"mbr-text mbr-fonts-style mb-4\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"></p>\n                        <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\">\n                            <a class=\"btn btn-warning\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Learn more</a>\n                        </div>\n                    </div>\n                </div>\n                <div class=\"col-12 col-lg-{{imageWidth}}\">\n                    <div class=\"image-wrapper\">\n                        <img src=\"@PROJECT_PATH@/assets/images/screenshot-w202club.ru-2022.05.13-16-53.png\" alt>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "t5IAtVXMHJ",
+          "_anchor": "features16-4",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            "blockquote": {
+              "border-color": "@lineColor",
+              "border-radius": "4px",
+              "background-color": "@cardColor"
+            }
+          },
+          "_name": "content7",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content7\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <input type=\"color\" name=\"lineColor\" title=\"Line Color\" value=\"#6592e6\">\n        <input type=\"color\" name=\"cardColor\" title=\"Color\" value=\"#fafafa\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-md-{{textWidth}}\">\n                <blockquote>\n                <h5 class=\"mbr-section-title mbr-fonts-style mb-2\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\"><b>Концепция облегченной конструкции</b></h5>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\">Хотя по субъективным ощущениям машина не обладает хорошим темпераментом, технические характеристики говорят об обратном: разгон до 100 км/ч — за 10,5 с, максимальная скорость – 215 км/ч. На последний параметр сильно влияет аэродинамическое сопротивление, коэффициент Сх у новой машины снижен до 0,27.\n<br>Аэродинамическая разработка нового Mercedes Е-класса начиналась в водной среде, где особенно наглядно можно было проследить характер обтекаемости кузова. При коэффициенте аэродинамического сопротивления Сх = 0,27 машины Mercedes Е-200 и Mercedes Е-220 D признаны лучшими в мире по этой характеристике.\n<br>Новые модели Е-класса потребляют топлива в среднем на 6–10% меньше, чем их предшественники, соответственно меньше и выброс вредных веществ в атмосферу. Наибольший эффект для достижения такого результата дали вышеупомянутое улучшение аэродинамики (Сх в зависимости от модели автомобиля и марки шин составляет 0,27–0,29) и снижение массы.\n<br>Влияние массы на энергозатраты автомобиля нельзя не принимать во внимание. Например, при движении в городских условиях расход энергии составляет 23%. Из них 17% приходится на разгон автомобиля, остальные 6% – на сопротивление качению. Энергозатраты зависят и от массы автомобиля. Известно, что при уменьшении ее на 100 кг расход топлива при движении в городских условиях, в зависимости от марки автомобиля и характера движения, уменьшается на 0,3–0,6 л/100 км.\n<br>«Снижать массу автомобиля необходимо, но не любой ценой» – таков основной принцип развития автомобиля Е-класса. Снижение массы — это только шаг к решению проблемы. Также важны аспекты безопасности, комфортности, надежности и экономичности. Из этих соображений Mercedes и разработал концепцию облегченной конструкции, соответствующей всем вышеуказанным требованиям.\n<br>Главную роль в этой концепции играет сталь. При оптимальном удельном весе и высокой прочности сталь является идеальным компромиссом между безопасностью и массой для несущих конструкций легкового автомобиля. Для решения проблемы безопасности подверженные большой нагрузке части кузова усиливаются и делаются жестче. Для остальных частей применяется менее прочная сталь. Такой кузов имеет и оптимальную массу, и надлежащую прочность. Последнее время Mercedes применяет все более прочные марки стали, которые позволяют при минимальной толщине металла сохранить требуемую прочность. У нового Е-класса примерно треть кузова сделана из такой высокопрочной стали.\n<br>Благодаря новшествам, примененным в производстве металлического кузова Mercedes Е-класса (более 30 технических новинок), управление автомобилем стало более безопасным и комфортабельным. Своеобразная структура кузова и системы безопасности нового Mercedes Е-класса сделали этот автомобиль самым надежным в своем классе.\n<br>    Использование стали с присадкой из титана\n<br>Одним из новых образцов высокопрочной стали является микролегированная изотопная сталь. Она представляет собой легированную специальным способом сталь, содержащую присадку из титана и обладающую структурой высокой степени однородности. Титановая присадка позволяет намного легче выполнять работы по гибке и штамповке листового металла, что, в первую очередь, касается больших частей кузова. У машин Е-класса, кроме основных частей несущей конструкции, из металла с титановой присадкой изготовляются задние двери, задняя стенка и задняя часть пола. Уменьшение массы, в зависимости от узла конструкции, составляет от 4 до 7%.</p></blockquote>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "t5IBpPDP1Z",
+          "_anchor": "content7-6",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    }
+  }
+}
